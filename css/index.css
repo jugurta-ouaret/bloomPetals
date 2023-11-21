@@ -1,0 +1,205 @@
+/*  import de le police */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Pacifico&display=swap');
+
+
+@font-face {
+    font-family: CeraPro;
+    src: url(../font/CeraPro-Regular.ttf);
+}
+
+
+body {
+    font-family: 'Oswald', verdana;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f6f3;
+}
+
+nav {
+    overflow: hidden;
+    background: rgba(132, 193, 35, 0.199);
+    line-height: 70px;
+}
+
+nav a {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: rgb(132, 193, 35);
+    line-height: 50px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+
+nav .active {
+    background:  rgb(132, 193, 35);
+}
+
+
+nav input[type="text"] {
+    float: right;
+    padding: 6px;
+    border: 1px solid #000000;
+    margin: 15px 150px 0 0;
+    font-size: 20px;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 0;
+        padding: 10px;
+    }
+
+    nav input[type="text"] {
+        float: none;
+        margin: 15px auto;
+    }
+}
+
+.info_bloom {
+    text-align: center;
+    padding-left: 10px;
+    margin: 80px;
+}
+
+h1 {
+    font-family: Pacifico;
+    font-size: 80px;
+    color: rgb(132, 193, 35);
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+.info_bloom p {
+    text-align: center;
+    border-radius: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(132, 193, 35);
+}
+
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.image_l11 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image_l11 img {
+    display: block;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+        rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-top: 20px;
+}
+
+.image_l11 img:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sec_services {
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.sec_services div {
+    margin: 40px;
+}
+
+
+.sec_services p {
+    margin: 20px;
+}
+
+.nos_services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service1,
+.service2,
+.service3 {
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+        rgba(255, 255, 255, 0.103) -6px -2px 16px 0px;
+}
+
+.service1:hover,
+.service2:hover,
+.service3:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nos_services article {
+    flex: 1;
+    margin: 0 10px;
+    text-align: left;
+}
+
+.nos_services h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(132, 193, 35);
+}
+
+
+.nos_services p {
+    text-align: inherit;
+}
+
+.read_more {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background: none;
+    border: #fff;
+    text-align: inherit;
+    color: rgb(132, 193, 35);
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
